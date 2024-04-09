@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.join {
+    background: #F0CCBB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 35%;
+    height: 40px;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.jay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 10px 160px 10px 120px; */
+}
+
+.grand {
+    margin: 40px 0 40px 0;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+main h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+main p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+button {
+    background: #C6754D;
+    margin-top: 15px;
+    height: 30px;
+    width: 120px;
+    border: #F0CCBB;
+    border-radius: 10px;
+    color: white;
+}
+
+.story {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.hamburger {
+    display: none;
+}
+
+.story p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.story h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.frame {
+    margin-bottom: 50px;
+}
+
+.copy {
+    background: #FCF9F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.second {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+ @media screen and (max-width: 500px) {
+    header {
+        width: 100%;
+    }
+    
+    .hamburger {
+        margin: 1em;
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+
+    .join {
+        align-items: center;
+        flex-direction: column;
+    }
+    main p{
+        text-align: left;
+    }
+
+    .story{
+        align-items: start;
+        flex-direction: column;
+        margin: 1em;
+    }
+    button {
+        text-align: left;
+    }
+
+    body {
+        margin: 0;
+    }
+
+.story h1 {
+    margin-bottom: 30px;
+}
+
+.story p{
+    font-size: 20px;
+    font-style: montaga;
+    gap: 2rem;
+}
+
+main h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+}
+}
+
